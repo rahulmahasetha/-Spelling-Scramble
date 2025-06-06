@@ -7,7 +7,7 @@
 
 * **Dynamic Round System:** Progresses through multiple rounds with increasing word lengths (e.g., 3-letter to 5-letter words).
 * **Unique "Fixed Letter" Constraint:** Players must start each word attempt with a designated fixed letter, adding a strategic layer to gameplay.
-* **Extensive Dictionary:** Validates word submissions against a comprehensive English dictionary (approximately 58,109 words).
+* **Extensive Dictionary:** Validates word submissions against a comprehensive English dictionary .
 * **Real-time Feedback:** Provides immediate visual and auditory cues for correct/incorrect submissions, rule violations, and time management.
 * **Scoring and Timer System:** Tracks player scores and implements a countdown timer for each round, encouraging quick thinking.
 * **Responsive UI:** Adapts seamlessly to various screen sizes and orientations, ensuring a consistent user experience on different devices.
