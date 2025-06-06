@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen>
                 ),
               ),
               const SizedBox(height: 30),
-              // Animated Welcome Text
+             
               SlideTransition(
                 position: _slideAnimation,
                 child: const Text(
