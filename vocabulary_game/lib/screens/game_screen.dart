@@ -6,7 +6,7 @@ import 'package:vocabulary_game/screens/game_over_screen.dart';
 import 'package:vocabulary_game/utils/constants.dart';
 import 'package:vocabulary_game/utils/word_generator.dart';
 import 'package:vocabulary_game/utils/game_logic_helper.dart';
-import 'package:vocabulary_game/widgets/letter_box.dart'; // Ensure this import is correct
+import 'package:vocabulary_game/widgets/letter_box.dart'; 
 import 'package:vocabulary_game/services/audio_service.dart';
 import 'package:vocabulary_game/widgets/game_instructions_dialog.dart';
 
@@ -647,7 +647,7 @@ class _GameScreenState extends State<GameScreen> {
                                 char,
                                 style: TextStyle(
                                   fontSize:
-                                      placeholderFontSize, // Apply placeholder font size
+                                      placeholderFontSize, 
                                   fontWeight: FontWeight.bold,
                                   color: isFixedLetterInAttempt && isFilled
                                       ? const Color(0xFF8B5CF6)
