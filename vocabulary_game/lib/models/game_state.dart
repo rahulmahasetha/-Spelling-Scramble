@@ -1,6 +1,6 @@
 // lib/models/game_state.dart
 import 'package:flutter/foundation.dart';
-//import 'package:vocabulary_game/utils/constants.dart'; // Ensure this is imported
+
 
 class GameState with ChangeNotifier {
   int _score = 0;
@@ -10,7 +10,7 @@ class GameState with ChangeNotifier {
   String _currentAttempt = '';
   String _gameMessage = 'Form a word!';
   bool _isCorrectAttempt = true;
-  int _currentWordLength = 0; // NEW: To store the word length for the current round
+  int _currentWordLength = 0; 
 
   int get score => _score;
   int get round => _round;
@@ -19,7 +19,7 @@ class GameState with ChangeNotifier {
   String get currentAttempt => _currentAttempt;
   String get gameMessage => _gameMessage;
   bool get isCorrectAttempt => _isCorrectAttempt;
-  int get currentWordLength => _currentWordLength; // NEW: Getter for dynamic word length
+  int get currentWordLength => _currentWordLength; 
 
   void resetGame() {
     _score = 0;
@@ -29,7 +29,7 @@ class GameState with ChangeNotifier {
     _currentAttempt = '';
     _gameMessage = 'Form a word!';
     _isCorrectAttempt = true;
-    _currentWordLength = 0; // Reset on game start
+    _currentWordLength = 0; 
     notifyListeners();
   }
 
@@ -55,7 +55,7 @@ class GameState with ChangeNotifier {
     notifyListeners();
   }
 
-  void setWordLengthForRound(int length) { // NEW: Setter for dynamic word length
+  void setWordLengthForRound(int length) { 
     _currentWordLength = length;
     notifyListeners();
   }
@@ -66,7 +66,7 @@ class GameState with ChangeNotifier {
         _currentAttempt = _currentAttempt.substring(0, _currentAttempt.length - 1);
       }
     } else {
-      // Use dynamic word length for attempt validation
+      
       if (_currentAttempt.length < _currentWordLength) {
         _currentAttempt += letter;
       }
