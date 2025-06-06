@@ -35,27 +35,7 @@
     * C: 1.2%
     * HTML: 1.1%
     * Other: 0.1%
-## ⬇️ Installation and Setup
 
-To run "Spelling Scramble" locally, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/spelling_scramble.git
-    cd spelling_scramble
-    ```
-
-2.  **Get Flutter dependencies:**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Run the application:**
-    * Connect a physical device or start an emulator.
-    * Run from your IDE (Android Studio / VS Code) or command line:
-        ```bash
-        flutter run
-        ```
 
 ## 🎮 How to Play
 
