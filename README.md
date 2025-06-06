@@ -25,7 +25,6 @@
 * **Framework:** Flutter
 * **Language:** Dart
 * **Development Environments:** Android Studio, Visual Studio Code (VS Code)
-* **State Management:** `provider` package
 * **External Libraries:** `audioplayers` (for sound effects)
 * **Codebase Composition (GitHub Analysis):**
     * Dart: 57.4%
